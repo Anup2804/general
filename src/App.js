@@ -17,6 +17,7 @@ import Preloader from './Pages/Preloader/Preloader';
 import ScrollTop from "./Pages/ScrollTop/ScrollTop";
 import ServicesDetails from './Pages/Services/ServicesDetails';
 import ServicesPage from './Pages/Services/ServicesPage';
+import Navbar from './Pages/Contact/Enavbar';
 
 function App() {
     const [loader, setLoader] = useState(true);
@@ -43,7 +44,7 @@ function App() {
                 <Route path="/portfolio-details-two" element={<PortfolioDetailsTwo />} />
                 <Route path="/news" element={<NewsStandard />} />
                 <Route path="/news-details" element={<NewsDetails />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/contact" element={<Navbar/>} />
                 <Route path="*" element={<Error />} />
             </Routes></Router>
             <ScrollTop />
