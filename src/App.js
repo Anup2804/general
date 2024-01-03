@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutPage from './Pages/AboutPage/AboutPage';
-import Contact from './Pages/Contact/Contact';
+// import Contact from './Pages/Contact/Contact';
 import Error from './Pages/Error/Error';
 import HomeOne from "./Pages/HomeOne/HomeOne/HomeOne";
 import HomeThree from './Pages/HomeThree/HomeThree/HomeThree';
-import HomeTwo from './Pages/HomeTwo/HomeTwo/HomeTwo';
+import Textarea from './Pages/HomeTwo/Textarea';
 import NewsDetails from './Pages/News/NewsDetails';
 import NewsStandard from './Pages/News/NewsStandard';
 import Portfolio from './Pages/Portfolio/Portfolio';
@@ -18,6 +18,7 @@ import ScrollTop from "./Pages/ScrollTop/ScrollTop";
 import ServicesDetails from './Pages/Services/ServicesDetails';
 import ServicesPage from './Pages/Services/ServicesPage';
 import Navbar from './Pages/Contact/Enavbar';
+// import { Home } from './Pages/Header/Menu.js';
 
 function App() {
     const [loader, setLoader] = useState(true);
@@ -32,7 +33,7 @@ function App() {
             {loader && <Preloader />}
             <Router><Routes>
                 <Route path="/" element={<HomeOne />} />
-                <Route path="/home-two" element={<HomeTwo />} />
+                <Route path="/home-two" element={<Textarea title="ENTER TEXT HERE"/>} />
                 <Route path="/home-three" element={<HomeThree />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/services" element={<ServicesPage />} />

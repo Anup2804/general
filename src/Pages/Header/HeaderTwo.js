@@ -26,7 +26,7 @@ const HeaderTwo = ({variant}) => {
                     <div className="header__area-box-menu">
                         <div className="header__area-box-main-menu">
                             <ul className="mobile__menu" style={{ display: `${mobileToggle ? "block" : "none"}` }}>
-                                <li className="menu-item-has-children">
+                                <li className="head">
                                     <Link to="/">Home</Link>
                                     <DropDown>
                                         <ul className="sub-menu">
