@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FooterThree from '../Footer/FooterThree';
-import Header from '../Header/HeaderFour';
+import Header from '../Header/HeaderOne';
 import { pageTitle } from '../PageTitle';
 import Form from './Form';
 
@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <>
         <Header></Header>
-        <div className="contact__area section-padding">
+    <div className="contact__area section-padding" style={{backgroundImage:`url('../assets/img/contact.png')`}}>
             <div className="container">
                 <div className="row mb-60">
                     <div className="col-xl-5 col-lg-6">
@@ -25,7 +25,7 @@ const Contact = () => {
                                     <span>Phone :</span>
                                 </div>
                                 <div className="contact__area-info-item-content">
-                                    <a href="tel:+123(458)896895">+123 ( 458 ) 896 895</a>
+                                    <a href="tel:+123(458)896895">+91 9321503981</a>
                                 </div>
                             </div>
                             <div className="contact__area-info-item">
@@ -34,7 +34,7 @@ const Contact = () => {
                                     <span>Email :</span>
                                 </div>
                                 <div className="contact__area-info-item-content">
-                                    <a href="mailto:support@gamil.com">support@gamil.com</a>
+                                    <a href="mailto:anupc4039@gamil.com">anupc4039@gamil.com</a>
                                 </div>
                             </div>
                             <div className="contact__area-info-item">

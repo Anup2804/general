@@ -2,13 +2,14 @@
 Services
 ==========================================================================*/
 .services__area {
-    background: $text-color-1;
+    background:#b8e4e2;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     &-item {
-        background: $text-color-8;
+        background:#58ade4;
         padding: 50px;
+        border-radius: 10px;
         position: relative;
         margin-top: 30px;
         span {
@@ -29,7 +30,7 @@ Services
             line-height: 100px;
             display: block;
             text-align: center;
-            border-radius: 50%;
+            border-radius: 10px;
             border: 1px solid $border;
             float: left;
             margin-right: 40px;
@@ -193,11 +194,12 @@ Services Details
 Work
 ==========================================================================*/
 .work__area {
-    background: $text-color-1;
+    background:#b8e4e2;
     &-item {
-        background: $text-color-7;
+        background: #82d2e4;
         padding: 40px;
         position: relative;
+        border-radius: 10px;
         span {
             position: absolute;
             right: 40px;

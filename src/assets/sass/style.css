@@ -275,7 +275,7 @@ Theme Btn CSS
 ==========================================================================*/
 .theme-btn,
 .theme-btn-1 {
-  background: #F94D1D;
+  background: #097f85;
   color: #FFFFFF;
   display: inline-flex;
   font-size: 16px;
@@ -289,6 +289,7 @@ Theme Btn CSS
   align-items: center;
   line-height: 60px;
   overflow: hidden;
+  border-radius: 10px;
 }
 .theme-btn::after,
 .theme-btn-1::after {
@@ -335,7 +336,7 @@ Theme Btn CSS
 }
 
 .theme-btn-1 {
-  background: #F94D1D;
+  background: #1dc9f9;
 }
 .theme-btn-1:hover {
   color: #030404;
@@ -2536,7 +2537,7 @@ Banner
   padding-bottom: 130px;
 }
 .banner__area-content h1 {
-  font-size: 120px;
+  font-size: 50px;
   line-height: 130px;
   margin-bottom: 60px;
   text-transform: uppercase;
@@ -3542,9 +3543,10 @@ Footer
   display: inline-block;
 }
 .footer__area-widget-about-logo a img {
-  max-width: 180px;
+  max-width: 90px;
   position: relative;
   z-index: 99;
+  border-radius: 15px;
 }
 .footer__area-widget-about p {
   margin-top: 30px;
@@ -4214,7 +4216,7 @@ Services
 .services__area-item-icon::after {
   content: "";
   position: absolute;
-  background: #005BA4;
+  background: #000000;
   width: 0;
   height: 0;
   border-radius: 50%;
@@ -4235,7 +4237,7 @@ Services
   z-index: 2;
 }
 .services__area-item-icon img {
-  max-width: 50px;
+  max-width: 60px;
 }
 .services__area-item-content {
   overflow: hidden;
@@ -4247,7 +4249,7 @@ Services
   transition: all 0.4s ease-out 0s;
 }
 .services__area-item-content h4 a:hover {
-  color: #005BA4;
+  color: #000000;
 }
 .services__area-item:hover .services__area-item-icon::after {
   width: 100%;
@@ -4354,7 +4356,7 @@ Services Details
 Work
 ==========================================================================*/
 .work__area {
-  background: #030404;
+  background:#00000070;
 }
 .work__area-item {
   background: #0F1212;
@@ -5012,9 +5014,10 @@ Menu Bar
   display: inline-block;
 }
 .header__area-box-logo a img {
-  max-width: 180px;
+  width: 90px;
   z-index: 999;
   position: relative;
+  border-radius: 15px;
 }
 .header__area-box-logo.center a {
   padding: 56px 20px 0px 20px;
@@ -5706,7 +5709,7 @@ Menu Bar Three
     padding: 80px 30px;
   }
   .header__area-box-logo a img {
-    max-width: 175px;
+    width: 65px;
   }
   .header__area-box-logo.center a {
     padding: 34px 20px 0px 20px;

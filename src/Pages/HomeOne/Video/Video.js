@@ -7,7 +7,7 @@ const Video = ({bannerBg}) => {
         setOpenVideo(true)
     }
     return (
-        <div className="video__area" style={{backgroundImage: `url(${bannerBg})`}}>
+        <div className="video__area" style={{backgroundImage: `url('../assets/img/dream.png')`}}>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12">

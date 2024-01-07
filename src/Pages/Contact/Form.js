@@ -17,7 +17,7 @@ const Form = () => {
                 </div>
                 <div className="col-sm-12 mb-25">
                     <div className="contact__area-bottom-form-item">
-                        <input type="text" name="subject" placeholder="Subject" required /> 
+                        <input type="text" name="subject" placeholder="Demand" required /> 
                     </div>
                 </div>
                 <div className="col-sm-12 mb-30">

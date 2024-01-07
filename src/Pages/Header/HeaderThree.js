@@ -22,7 +22,7 @@ const HeaderThree = ({variant}) => {
             <div className="container custom-container">
                 <div className="header__area-box">
                     <div className="header__area-box-logo">
-                        <Link to="/"> <img src="assets/img/logo-2.png" alt="" /> </Link>
+                        <Link to="/"> <img src="assets/images/logo-white.png" alt="" /> </Link>
                     </div>
                     <div className="header__area-box-sidebar d-block">
                         <div className="header__area-box-sidebar-popup-icon"> 

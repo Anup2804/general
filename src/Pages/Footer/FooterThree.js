@@ -12,13 +12,13 @@ const FooterThree = () => {
                                 <div className="footer__area-widget-about">
                                     <div className="footer__area-widget-about-social three">
                                         <ul>
-                                            <li><Link to=''><i className="fab fa-facebook-f"></i></Link> </li>
-                                            <li><Link to=''><i className="fab fa-twitter"></i></Link> </li>
-                                            <li><Link to=''><i className="fab fa-behance"></i></Link> </li>
-                                            <li><Link to=''><i className="fab fa-linkedin-in"></i></Link> </li>
+                                            {/* <li><Link to='https://www.facebook.com'><i className="-facebook-f"></i></Link></li>
+                                            <li><Link to=''><i className="-twitter"></i></Link> </li>
+                                            <li><Link to=''><i className="-behance"></i></Link> </li>
+                                            <li><Link to=''><i className="-linkedin-in"></i></Link> </li>
                                             <li><Link to=''><i className="fal fa-basketball-ball"></i></Link> </li>
-                                            <li><Link to=''><i className="fab fa-pinterest-p"></i></Link> </li>
-                                            <li><Link to=''><i className="fab fa-instagram"></i></Link> </li>
+                                            <li><Link to=''><i className="-pinterest-p"></i></Link> </li>
+                                            <li><Link to=''><i className="-instagram"></i></Link> </li> */}
                                         </ul>
                                     </div>
                                     <div className="footer__area-widget-about-menu three">
@@ -26,8 +26,8 @@ const FooterThree = () => {
                                             <li><Link to='/'>Home</Link></li>
                                             <li><Link to='/services'>Services</Link></li>
                                             <li><Link to='/news'>News</Link></li>
-                                            <li><Link to='/portfolio'>Portfolio</Link></li>
                                             <li><Link to='/contact'>Contact</Link></li>
+                                            {/* <li><Link to='/contact'contact></Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ const FooterThree = () => {
                     <div className="row align-items-center copyright__area-border">
                         <div className="col-xl-12">
                             <div className="copyright__area-left t-center">
-                                <p>Copyright © 2023<a href="index.html"> ThemeOri</a> Website by Metier </p>
+                                <p>Copyright © 2023<a href="index.html"> Mega Furniture</a> Website by Branding Catalyst </p>
                             </div>
                         </div>
                     </div>

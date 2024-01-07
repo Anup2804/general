@@ -75,7 +75,7 @@ export default function Header({ variant }) {
                         <div className="header__area-box-sidebar-popup-logo">
                             <Link to='/'><img src="assets/img/logo-2.png" alt="" /></Link>
                         </div>
-                        <p>Aliquam nibh tortor, faucibus quis ligula eget, faucibus auctor sapien. Fusce vulputate magna in magna pellentesque in mauris dignissim, imperdiet risus ac, congue nunc.</p>
+                        <p>Bulid your dream home now and make your dream come true.Enjoy your dream.Your dream is our mission.</p>
                         <div className="header__area-box-sidebar-popup-contact">
                             <h4 className="mb-25">Contact Us</h4>
                             <form action="#">

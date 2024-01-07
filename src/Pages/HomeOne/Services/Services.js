@@ -5,43 +5,43 @@ const Services = () => {
     const servicesData = [
       {
         id: 1,
-        title: 'Marketing',
+        title: 'Home Services',
         batch: '01',
-        description: 'Praesent vitae augue sem. Phasellus pretium eu ipsum sit amet interdum.',
-        imgOne: 'assets/img/icon/services-1.png',
-        imgTwo: 'assets/img/icon/services-11.png',
+        description:'Installation ,home repair and many more',
+        imgOne: 'assets/img/icon/dream.png',
+        imgTwo: 'assets/img/icon/dream.png',
         href: '/services-details',
       },
       {
         id: 2,
-        title: 'Designing',
+        title: 'Designing home',
         batch: '02',
-        description: 'Praesent vitae augue sem. Phasellus pretium eu ipsum sit amet interdum.',
-        imgOne: 'assets/img/icon/services-2.png',
-        imgTwo: 'assets/img/icon/services-22.png',
+        description: 'Designer expert of more than 5years of exprience.',
+        imgOne: 'assets/img/icon/service.png',
+        imgTwo: 'assets/img/icon/service.png',
         href: '/services-details',
       },
       {
         id: 3,
-        title: 'Development',
+        title: '10 days Return',
         batch: '03',
-        description: 'Praesent vitae augue sem. Phasellus pretium eu ipsum sit amet interdum.',
+        description: 'Policy for our all premium customer.',
         imgOne: 'assets/img/icon/services-3.png',
         imgTwo: 'assets/img/icon/services-33.png',
         href: '/services-details',
       },
       {
         id: 4,
-        title: 'Designing',
+        title: 'Custom Funiture',
         batch: '04',
-        description: 'Praesent vitae augue sem. Phasellus pretium eu ipsum sit amet interdum.',
-        imgOne: 'assets/img/icon/services-4.png',
-        imgTwo: 'assets/img/icon/services-44.png',
+        description: 'Bulid your dream furniture with us.',
+        imgOne: 'assets/img/icon/custom.png',
+        imgTwo: 'assets/img/icon/custom.png',
         href: '/services-details',
       },
     ];
     return (
-        <div className="services__area section-padding" style={{backgroundImage: `url('assets/img/services.png')`}}>
+        <div className="services__area section-padding" style={{backgroundImage: `url('../assets/img/service1.png')`}}>
             <div className="container">
                 <div className="row mb-30">
                     <div className="col-xl-12">
@@ -63,7 +63,7 @@ const Services = () => {
                                     </div>
                                 </div>
                                 <div className="services__area-item-content">
-                                    <h4><Link to="/services-details">{item.title}</Link></h4>
+                                    <h4><Link to="">{item.title}</Link></h4>
                                     <p>{item.description}</p>
                                 </div>
                             </div>

@@ -150,11 +150,11 @@ $list: (h1, 84px, 94px, 0, 0, $white, $heading-font, 700),
 (p, 16px, 26px, 0, 0, $text-color-4, $body-font);
 @each $name, $size, $height, $p, $m, $color, $font, $weight in $list {
     #{$name}{
-      font-size: $size;
-      line-height: $height;
+      font-size: 25px;
+      line-height: 30px;
       padding: $p;
       margin: $m;
-      color: $color;
+      color: black;
       font-family: $font;
       font-weight: $weight;
     }
@@ -204,6 +204,7 @@ Theme Btn CSS
 .theme-btn-1 {
 	background: $primary-color;
 	color: $white;
+	border-radius: 10px;
 	display: inline-flex;
 	font-size: 16px;
 	padding: 0 35px;

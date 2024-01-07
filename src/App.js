@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutPage from './Pages/AboutPage/AboutPage';
-// import Contact from './Pages/Contact/Contact';
-import Error from './Pages/Error/Error';
+// import AboutPage from './Pages/AboutPage/AboutPage';
+import Contact from './Pages/Contact/Contact';
+// import Error from './Pages/Error/Error';
 import HomeOne from "./Pages/HomeOne/HomeOne/HomeOne";
 import HomeThree from './Pages/HomeThree/HomeThree/HomeThree';
 import Textarea from './Pages/HomeTwo/Textarea';
@@ -16,9 +16,13 @@ import PortfolioTwo from './Pages/Portfolio/PortfolioTwo';
 import Preloader from './Pages/Preloader/Preloader';
 import ScrollTop from "./Pages/ScrollTop/ScrollTop";
 import ServicesDetails from './Pages/Services/ServicesDetails';
-import ServicesPage from './Pages/Services/ServicesPage';
-import Navbar from './Pages/Contact/Enavbar';
+// import ServicesPage from './Pages/Services/ServicesPage';
+import Services from './Pages/HomeOne/Services/Services';
+import Work from './Pages/HomeOne/Work/Work';
+// import Whatsapp from './Pages/Whatsapp/Whatsapp';
+// import Navbar from './Pages/Contact/Enavbar';
 // import { Home } from './Pages/Header/Menu.js';
+// import Back from './Pages/backimg/Back';
 
 function App() {
     const [loader, setLoader] = useState(true);
@@ -35,8 +39,8 @@ function App() {
                 <Route path="/" element={<HomeOne />} />
                 <Route path="/home-two" element={<Textarea title="ENTER TEXT HERE"/>} />
                 <Route path="/home-three" element={<HomeThree />} />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/services" element={<ServicesPage />} />
+                <Route path="/about" element={<Work />} />
+                <Route path="/services" element={<Services />} />
                 <Route path="/services-details" element={<ServicesDetails />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/portfolio-two" element={<PortfolioTwo />} />
@@ -45,9 +49,10 @@ function App() {
                 <Route path="/portfolio-details-two" element={<PortfolioDetailsTwo />} />
                 <Route path="/news" element={<NewsStandard />} />
                 <Route path="/news-details" element={<NewsDetails />} />
-                <Route path="/contact" element={<Navbar/>} />
-                <Route path="*" element={<Error />} />
+                <Route path="/contact" element={<Contact/>} />
+                {/* <Route path="*" element={<Error />} /> */}
             </Routes></Router>
+            
             <ScrollTop />
         </>
     )

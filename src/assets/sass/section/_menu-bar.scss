@@ -29,9 +29,11 @@ Menu Bar
             a {
                 display: inline-block;
                 img {
-                    max-width: 180px;
+                    max-width: 90px;
+                    border-radius: 35px;
                     z-index: 999;
                     position: relative;
+                    margin: 5px;
                 }
             }
             &.center {
@@ -231,7 +233,7 @@ Menu Bar
                     font-size: 18px;
                     line-height: 28px;
                     font-weight: 500;
-                    padding: 55px 30px;
+                    padding: 15px 30px;
                     text-transform: uppercase;
                     font-family: $heading-font;
                     transition: all 0.4s ease;
@@ -394,7 +396,7 @@ Menu Box CSS
             li {
                 list-style: none;
                 a {
-                    padding: 15px 0;
+                    padding: 10px 0;
                     display: block;
                     font-size: 18px;
                     line-height: 28px;

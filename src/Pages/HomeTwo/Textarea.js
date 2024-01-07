@@ -5,13 +5,13 @@ import Proptypes from 'prop-types'
 
 const Textarea = (props) => {
     const handleonclick =() => {
-        console.log("uppercase was cliclked");
+        // console.log("uppercase was cliclked");
         let newtext = text.toUpperCase();
         settext(newtext);
 
     }
     const handleonchange =(event) =>{
-        console.log("onchange");
+        // console.log("onchange");
         settext(event.target.value);
     }
     const [text, settext] = useState('Enter text');
@@ -26,7 +26,7 @@ const Textarea = (props) => {
   )
 } 
  
-// Textarea.propTypes ={
-    // title: Proptypes.string.isRequired}
+Textarea.propTypes ={
+    title: Proptypes.string.isRequired}
 
 export default Textarea;

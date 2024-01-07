@@ -66,7 +66,7 @@ const Features = () => {
                                     key={index}
                                     onMouseEnter={() => handelActive(index)}
                                 >
-                                    <img src={item.imgUrl} alt="" />
+                                    {/* <img src={require('')} alt="" /> */}
                                     <div className="features__area-item-content">
                                         <div className="features__area-item-content-icon">
                                             <Link to={item.href}><i className="fal fa-plus"></i></Link> 

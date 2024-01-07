@@ -13,7 +13,7 @@ const Reviews = () => {
                     <div className="col-xl-6 col-lg-8">
                         <div className="reviews__area-left">
                             <div className="reviews__area-left-title">
-                                <h2>Client Reviews</h2> 
+                                <h2>About company</h2> 
                             </div>                            
                             <Swiper
                                 slidesPerView={1}
@@ -26,13 +26,13 @@ const Reviews = () => {
                             >
                                 <SwiperSlide className="sponsors__area-brand swiper-slide">
                                     <div className="reviews__area-left-item">
-                                        <p>Pellentesque luctus elit justo, sit amet rutrum purus pulvinar nec. Praesent rutrum porttitor nunc nec tristique. Vivamus molestie sapien in ornare ornare. Duis blandit metus a ipsum commodo</p>
+                                        <p>Branding catalyst is one of the best adversiting company in india with more than 50k happy clients all over india.</p>
                                         <div className="reviews__area-left-item-client">
                                             <div className="reviews__area-left-item-client-avatar"> 
                                                 <img src="assets/img/avatar/client.jpg" alt="" /> 
                                             </div>
                                             <div className="reviews__area-left-item-client-content">
-                                                <h5>David Beckham</h5> <span>UI Designer</span> 
+                                                <h5>Abhishek T.</h5> <span>Founder</span> 
                                             </div>
                                         </div>
                                     </div>
