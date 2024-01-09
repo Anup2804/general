@@ -23,6 +23,7 @@ import Work from './Pages/HomeOne/Work/Work';
 // import Navbar from './Pages/Contact/Enavbar';
 // import { Home } from './Pages/Header/Menu.js';
 // import Back from './Pages/backimg/Back';
+// import  Email  from './Pages/Email/Email';
 
 function App() {
     const [loader, setLoader] = useState(true);
@@ -50,7 +51,9 @@ function App() {
                 <Route path="/news" element={<NewsStandard />} />
                 <Route path="/news-details" element={<NewsDetails />} />
                 <Route path="/contact" element={<Contact/>} />
+                {/* <Route path="/" element={<Email />} /> */}
                 {/* <Route path="*" element={<Error />} /> */}
+
             </Routes></Router>
             
             <ScrollTop />

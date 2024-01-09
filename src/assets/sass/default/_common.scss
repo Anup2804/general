@@ -154,7 +154,7 @@ $list: (h1, 84px, 94px, 0, 0, $white, $heading-font, 700),
       line-height: 30px;
       padding: $p;
       margin: $m;
-      color: black;
+      color:black;
       font-family: $font;
       font-weight: $weight;
     }
@@ -466,4 +466,9 @@ Custom Cursor
 		background: $primary-color-1;
 		opacity: 0.4;
 	}
+}
+
+// extra
+.mega{
+	color:white
 }

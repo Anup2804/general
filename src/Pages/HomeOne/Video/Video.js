@@ -15,7 +15,7 @@ const Video = ({bannerBg}) => {
                     </div>
                 </div>
             </div>
-            <ModalVideo channel="youtube" autoplay isOpen={openVideo} videoId="0WC-tD-njcA" onClose={() => setOpenVideo(false)} />
+            <ModalVideo channel="youtube" autoplay isOpen={openVideo} videoId="watch?v=tjpDTLNB_W0" onClose={() => setOpenVideo(false)} />
         </div>
     );
 };
